@@ -1,0 +1,10 @@
+.sectionPublications{
+    border: 1px solid #cccccc;
+}
+.sectionsInfo{
+}
+.sectionsInfo a{
+    font-size: 13px;
+    text-wrap: none;
+    color: black;
+}

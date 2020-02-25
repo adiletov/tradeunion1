@@ -1,0 +1,23 @@
+.heading{
+    padding: 5px;
+    background: linear-gradient(to bottom, rgba(64,150,238,1) 0%,rgba(64,150,238,1) 100%);
+    color: white;
+}
+.pageBlock{
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-right: 4px solid #6d8cff;
+}
+.headingTxt{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #cccccc;
+}
+.imgPub {
+    -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #cccccc, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}

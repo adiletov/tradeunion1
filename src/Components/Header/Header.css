@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background: linear-gradient(to bottom, #1e5799 0%,#207cca 35%,#2989d8 46%,#7db9e8 100%);
+}
+.header a{
+    padding: 10px;
+    font-family: monserat;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.header a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+
+.btnLanguage button{
+    margin: 5px 0px;
+    border: none;
+    background: none;
+    padding: 0px 5px;
+    color: #db2e2e;
+    text-transform: uppercase;
+}
+
+.btnLanguage button:first-child{
+    border-right: 2px solid #db2e2e;
+}
+.langImg{
+    width: 50px;
+    margin-left: 5px;
+}
+.logotypeBlock{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.logotypeImg{
+    width: 170px;
+    margin-bottom: 30px;
+}
+.logotypeTxt{
+    margin-bottom: 0px;
+}
+.logotypeSubTxt{
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
